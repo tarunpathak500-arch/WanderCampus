@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wander Campus · Lost & Found Portal</title>
+    <meta name="description" content="Wander Campus · Unified Lost & Found Portal and Custody Verification Desk for 600-Acre Campus." />
+    <meta property="og:title" content="Wander Campus · Lost & Found Portal" />
+    <meta property="og:description" content="Wander Campus · Unified Lost & Found Portal and Custody Verification Desk for 600-Acre Campus." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" href="/assets/aistudio/logo_958dd360.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-slate-50 text-slate-900 antialiased font-sans selection:bg-emerald-600 selection:text-white">
+    <div id="root"></div>
+    <script>
+      try {
+        localStorage.removeItem('campus_retriever_user');
+        localStorage.removeItem('campus_retriever_token');
+      } catch (e) {}
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

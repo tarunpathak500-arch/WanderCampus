@@ -1,0 +1,6 @@
+{
+  "name": "CampusRetriever",
+  "description": "Unified Lost & Found Portal and Verification Desk for a 600-Acre University Campus.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
